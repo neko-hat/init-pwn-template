@@ -5,6 +5,10 @@
 ```bash
 ./initpt --o <file name> --binary(--b) <target binary>  --libc <libc>
 ```
+### setup
+```bash
+./setup.sh
+```
 
 ## purpose
 **`It automatically creates a troublesome exploit code structure every time`**
