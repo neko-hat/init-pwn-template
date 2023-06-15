@@ -39,7 +39,7 @@ if __name__ == '__main__':
     
     if '--help' in sys.argv:
         print("usage : ./initpt --o <file name> --binary(--b) <target binary>  --libc <libc>")
-        exit(0)
+        sys.exit(0)
 
     for option_handle in option_handle_list:
         options[option_handle[2:]] = sys.argv[sys.argv.index(option_handle) + 1] if option_handle in sys.argv else None
