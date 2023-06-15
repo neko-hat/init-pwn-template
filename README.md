@@ -7,7 +7,7 @@
 ```
 
 ## purpose
-**`It automatically creates a troublesome exit code structure every time`**
+**`It automatically creates a troublesome exploit code structure every time`**
 
 ## Auto-generated code
 ```py
