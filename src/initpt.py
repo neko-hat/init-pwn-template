@@ -38,7 +38,7 @@ if __name__ == '__main__':
     options = {}
     
     if '--help' in sys.argv:
-        print("usage : ./setup_ex_template --o <file name> --binary(--b) <target binary>  --libc <libc>")
+        print("usage : ./initpt --o <file name> --binary(--b) <target binary>  --libc <libc>")
         exit(0)
 
     for option_handle in option_handle_list:
