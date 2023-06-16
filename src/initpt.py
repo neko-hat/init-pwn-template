@@ -9,7 +9,7 @@ def slog(k, v): return success(' : '.join([k, v]))
 def clog(k, v): return log.critical(' : '.join([k, v]))
 
 mode = 'debug'
-if len(sys.argv) <= 1
+if len(sys.argv) <= 1:
     mode = 'debug'
 else:
     mode = sys.argv[1]
